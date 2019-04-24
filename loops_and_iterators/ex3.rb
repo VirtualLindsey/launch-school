@@ -4,8 +4,8 @@
 arr = ["San Pedro", "Meowx", "George", "Lacey", "Mata Hari", "Garfield"]
 
 def cat_mutator(arr)
- arr.each do |cat|
-  puts cat + "meowww"
+ arr.each_with_index do |cat, index|
+  puts "#{index + 1}.  #{cat+ "meowww"}"
  end
 end
 
