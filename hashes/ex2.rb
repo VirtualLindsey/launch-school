@@ -8,5 +8,5 @@ cats_we_know = {
 }
 
 famous_cats = {
-  Garfield: "lazy", Salem: "clever", Luna: "bossy"
+  Peteycat: "magical", Garfield: "lazy", Salem: "clever", Luna: "bossy"
 }
