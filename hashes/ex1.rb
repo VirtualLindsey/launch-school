@@ -9,5 +9,9 @@ family = {  uncles: ["bob", "joe", "steve"],
           }
 
 immediate_family = []
-immediate_family.push(family.select { |key, value| key == "sisters" || key == "brothers" })
+
+immediate_family.push(family.select { |key, value| key == :sisters || key == :brothers })
+
 immediate_family.values.flatten
+
+puts immediate_family
